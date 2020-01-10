@@ -27,15 +27,15 @@ public class TestaNotasMusicais {
 				notas.pega("sol"), notas.pega("sol"), notas.pega("do"), notas.pega("do"), notas.pega("si"),
 				notas.pega("la"),
 
-				notas.pega("la"), notas.pega("la"), notas.pega("re"), notas.pega("res"), notas.pega("res"),
-				notas.pega("dos"),
+				notas.pega("la"), notas.pega("la"), notas.pega("re"), notas.pega("re"), notas.pega("re"),
+				notas.pega("do"),
 
 				notas.pega("si"), notas.pega("si"), notas.pega("si"), notas.pega("la"), notas.pega("sol"),
 				notas.pega("la"), notas.pega("si"), notas.pega("do"));
 
 
 		 Piano piano = new Piano();
-		 //piano.toca(doReMiFa);		
+		 piano.toca(doReMiFa);		
 		 piano.toca(atireiOPauNoGato);
 	}
 
